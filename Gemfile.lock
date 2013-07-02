@@ -20,6 +20,13 @@ GEM
     atomic (1.1.10)
     bond (0.4.3)
     builder (3.1.4)
+    columnize (0.3.6)
+    debugger (1.6.0)
+      columnize (>= 0.3.1)
+      debugger-linecache (~> 1.2.0)
+      debugger-ruby_core_source (~> 1.2.1)
+    debugger-linecache (1.2.0)
+    debugger-ruby_core_source (1.2.3)
     i18n (0.6.4)
     minitest (4.7.5)
     multi_json (1.7.7)
@@ -61,6 +68,8 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord
+  bundler
+  debugger
   shotgun
   sinatra
   sinatra-activerecord
